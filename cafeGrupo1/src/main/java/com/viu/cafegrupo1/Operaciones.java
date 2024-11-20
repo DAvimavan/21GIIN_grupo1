@@ -67,7 +67,7 @@ class Operaciones {
             System.out.println("El inventario está vacío.");
         } else {
             for (Producto producto : inventario) {
-                producto.mostrarInformacion();
+                producto.describirProducto();
             }
         }
     }
